@@ -12,4 +12,4 @@ I'm a fourth year undergraduate student from [School of Computer Science and Tec
 
 My research interests include machine learning, system security and operating systems. 
 
-You can find my CV here: [CV](../assets/CV.pdf).
+You can find my CV here: [CV](../files/CV.pdf).
