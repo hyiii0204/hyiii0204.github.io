@@ -7,7 +7,7 @@
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Yi Huang/Personal Homepage"
+title                    : "Yi Huang's Personal Homepage"
 title_separator          : "-"
 name                     : &name "Yi Huang"
 description              : &description "an undergradute student from ShanDong University"
