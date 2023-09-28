@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "academicpages is a ready-to-fork GitHub Pages template for academic personal websites"
+title: "About me"
 excerpt: "About me"
 author_profile: true
 redirect_from: 
@@ -10,4 +10,4 @@ redirect_from:
 
 I'm a fourth year undergraduate student from Computer Science and Technology School, ShanDong University.
 
-You can find my CV here: [Yi Huang's CV](../assets/CV.pdf).
+You can find my CV here: [CV](../assets/CV.pdf).
