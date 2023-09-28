@@ -7,10 +7,10 @@
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Yi Huang's Personal Homepage"
+title                    : "Yi Huang/Personal Homepage"
 title_separator          : "-"
-name                     : &name "Your Name"
-description              : &description "personal description"
+name                     : &name "Yi Huang"
+description              : &description "an undergradute student from ShanDong University"
 url                      : https://hyiii0204.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "hyiii0204/hyiii0204.github.io"
