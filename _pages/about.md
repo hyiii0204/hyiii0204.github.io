@@ -8,8 +8,9 @@ redirect_from:
   - /about.html
 ---
 
-I'm a fourth year undergraduate student from [School of Computer Science and Technology, Shandong University](https://www.cs.sdu.edu.cn/index.htm). In September 2024, I am going to study for a M.Sc. degree at [School of Computer Science, Peking University](https://cs.pku.edu.cn/), without entrance examination.
+I am a first-year master's student at [School of Computer Science, Peking University](https://cs.pku.edu.cn/). Before that, I received my bachelor's degree from [School of Computer Science and Technology, Shandong University](https://www.cs.sdu.edu.cn/index.htm).
 
 My research interests include machine learning, system security and operating systems. 
 
-You can find my CV here: [CV](../files/CV.pdf).
+
+
