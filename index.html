@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Yi Huang 黄艺</title>
+  <meta name="description" lang="en" content="This is an academic website for Yi Huang">
+  <meta name="keywords" lang="en" content="Yi Huang, Peking University, Computer Science, LLM Security" />
+
+  <link rel="shortcut icon" href="images/icon/yi.png">
+  <link rel="stylesheet" href="main.css">
+  <link rel="stylesheet" href="css/custom.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="css/academicons.css" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+
+  <script src="js/jquery-2.1.3.min.js"> </script>
+
+  <style>
+    li.indented { position: relative; padding-left: 90px; }
+    li.indented::before { content: attr(data-date); position: absolute; left: 0; top: 0; white-space: nowrap; }
+  </style>
+</head>
+
+<body>
+
+  <header class="site-header">
+    <div class="wrapper">
+      <nav class="site-nav">
+        <div class="trigger">
+          <a class="page-link" href="#bio"><b>Biography</b></a>
+          <a class="page-link" href="#Education"><b>Education</b></a>
+          <a class="page-link" href="#publications"><b>Publications</b></a>
+          <a class="page-link" href="#Experiences"><b>Experiences</b></a>
+          <a class="page-link" href="#teaching"><b>Teaching</b></a>
+          <a class="page-link" href="#awards"><b>Honors</b></a>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <div id="profile-cover" class="cover shallow-bg img-responsive">
+    <div id="profile-namecard" class="profile-wrapper wrapper-light">
+      <div id="my-pic" class="profile-col profile-col-1">
+        <img id="profile-avatar" src="./images/self-portrait/yi.jpg" alt="Yi Huang" class="circle-img border-dark" />
+      </div>
+      <div id="my-contact" class="profile-col profile-col-2">
+        <div id="my-name" class="text-grey-dark">Yi Huang (黄艺)</div>
+        <div id="my-title" class="text-grey">CS Student @ Peking University</div>
+        <div class="social-media">
+          <a href="mailto:yihuang@stu.pku.edu.cn" class="icon-button github"><i class="fa fa-envelope icon-github"></i></a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="page-content">
+    <div class="wrapper">
+      
+      <div id="bio" class="bio">
+        <h1 class="md-heading text-left"><i class="fa fa-id-card" aria-hidden="true"></i> About</h1>
+        <div class="bio-body">
+          <p>Hi, I am a Master's student at the <a href="https://cs.pku.edu.cn/English/Home.htm"><strong>School of Computer Science, Peking University</strong></a>, supervised by <a href="https://marapapman.github.io/">Prof. Ding Li</a>, <a href="https://yaoguopku.github.io/">Prof. Yao Guo</a>, and <a href="https://eecs.pku.edu.cn/xxkxjsxy/info/1502/6742.htm">Prof. Xiangqun Chen</a>. Previously, I obtained my B.S. degree from <a href="http://www.cs.en.qd.sdu.edu.cn/"><strong>School of Computer Science and Technology, Shandong University</strong></a>, where I ranked 1st out of 197 students.</p>
+          <p>My research interests lie in <strong>System Security, LLM Safety, and Anomaly Detection</strong>. I have extensive internship experience at top-tier labs including <strong>Ant Group, Xiaomi, Microsoft Research Asia, and Baidu</strong>.</p>
+        </div>
+      </div>
+
+      <div id="Education" class="bio">
+        <h1 class="md-heading text-left"><i class="fa fa-university" aria-hidden="true"></i> Education</h1>
+        <div class="bio-body">
+          <table>
+            <tr>
+              <td width="90%">
+                <strong>Master in Computer Science</strong> &nbsp;&nbsp; 2024 - Present<br>
+                <b>Peking University</b>, Beijing, China.<br>
+                Advisors: <a href="https://marapapman.github.io/">Prof. Ding Li</a>, <a href="https://yaoguopku.github.io/">Prof. Yao Guo</a>, and <a href="https://eecs.pku.edu.cn/xxkxjsxy/info/1502/6742.htm">Prof. Xiangqun Chen</a>
+              </td>
+              <td width="10%"><img src="images/icon/pku.png" width="80%"></td>
+            </tr>
+            <tr style="height: 20px;"><td></td></tr>
+            <tr>
+              <td width="90%">
+                <strong>B.S. in Computer Science (Elite Class)</strong> &nbsp;&nbsp; 2020 - 2024<br>
+                <b>Shandong University</b>, Qingdao, China.<br>
+                GPA: 93.44/100 (Rank: 1/197)<br>
+                Advisors: <a href="https://scholar.google.com/citations?user=O1yGhH0AAAAJ&hl=en">Prof. Xiuzhen Cheng</a> and <a href="https://liqiangnie.github.io/">Prof. Liqiang Nie</a>
+              </td>
+              <td width="10%"><img src="images/icon/sdu1.png" width="80%"></td>
+            </tr>
+          </table>
+        </div>
+      </div>
+
+      <div id="publications" class="publications">
+          <h1 class="md-heading text-left">
+            <i class="fa fa-file" aria-hidden="true"></i>
+            Research and Publications
+          </h1>
+          <div class="pub-list">
+
+            <div class="pub">
+              <div class="pub-left">
+                <img class="intro-img frame" src="images/publications/provsyn.png">
+              </div>
+              <div class="pub-right">
+                <div class="title">No Data? No Problem: Synthesizing Security Graphs for Better Anomaly Detection</div>
+                <div class="authors">
+                  <font style="font-size: 10pt;">
+                    <a class="author"><b>Yi Huang</b></a>, <a class="author">Shaofei Li</a>, <a class="author">Yao Guo</a>, <a class="author">Xiangqun Chen</a>, <a class="author">Ding Li</a>, <a class="author">Wajih Ul Hassan</a>
+                  </font>
+                </div>
+                <div class="publish"><span class="publisher">Submitted to USENIX Security 2026</span></div>
+                <div class="tags">[<a class="tag" href="https://arxiv.org/pdf/2506.06226"> <strong>Paper</strong></a>]</div>
+              </div>
+            </div>
+
+            <div class="pub">
+              <div class="pub-left">
+                <img class="intro-img frame" src="images/publications/sysarmor.png">
+              </div>
+              <div class="pub-right">
+                <div class="title">SYSARMOR: The Practice of Integrating Provenance Analysis into Endpoint Detection and Response Systems</div>
+                <div class="authors">
+                  <font style="font-size: 10pt;">
+                    <a class="author">Shaofei Li</a>, <a class="author">Jiandong Jin</a>, <a class="author">Hanlin Jiang</a>, <a class="author"><b>Yi Huang</b></a>, <a class="author">Yifei Bao</a>, <a class="author">Yuhan Meng</a>, <a class="author">Fengwei Hong</a>, <a class="author">Zheng Huang</a>, <a class="author">Peng Jiang</a>, <a class="author">Ding Li</a>
+                  </font>
+                </div>
+                <div class="publish"><span class="publisher">Accepted by Prism Workshop @ NDSS 2026</span></div>
+                <div class="tags">[<a class="tag" href="https://www.ndss-symposium.org/wp-content/uploads/prism2026-2.pdf"> <strong>Paper</strong></a>]</div>
+              </div>
+            </div>
+
+            <div class="pub">
+              <div class="pub-left">
+                <img class="intro-img frame" src="images/publications/mimo_vl.png">
+              </div>
+              <div class="pub-right">
+                <div class="title">MiMo-VL Technical Report</div>
+                <div class="authors">
+                  <font style="font-size: 10pt;">
+                    <a class="author">Xiaomi LLM-Core Team</a>, <a class="author"><b>Yi Huang</b></a> (Contributor), <a class="author">et al.</a>
+                  </font>
+                </div>
+                <div class="publish"><span class="publisher">Technical Report, 2025</span></div>
+                <div class="tags">[<a class="tag" href="https://arxiv.org/pdf/2506.03569"> <strong>Paper</strong></a>]</div>
+              </div>
+            </div>
+
+            <div class="pub">
+              <div class="pub-left">
+                <img class="intro-img frame" src="images/publications/mimo.png">
+              </div>
+              <div class="pub-right">
+                <div class="title">MiMo: Unlocking the Reasoning Potential of Language Model – From Pretraining to Posttraining</div>
+                <div class="authors">
+                  <font style="font-size: 10pt;">
+                    <a class="author">Xiaomi LLM-Core Team</a>, <a class="author"><b>Yi Huang</b></a> (Core Contributor), <a class="author">et al.</a>
+                  </font>
+                </div>
+                <div class="publish"><span class="publisher">Technical Report, 2025</span></div>
+                <div class="tags">[<a class="tag" href="https://arxiv.org/pdf/2505.07608"> <strong>Paper</strong></a>]</div>
+              </div>
+            </div>
+
+          </div>
+      </div>
+
+      <div id="Experiences" class="bio">
+        <h1 class="md-heading text-left"><i class="fa fa-briefcase" aria-hidden="true"></i> Intern Experiences</h1>
+        <div class="bio-body">
+          <table>
+            <tr>
+              <td width="85%">
+                <li><strong>Ant Group</strong> (Nov. 2025 - Present)<br>
+                <strong>Research Intern</strong>, Tianqian Lab.<br>
+                Multi-turn jailbreak attack and RAG knowledge extraction attack.</li>
+              </td>
+              <td width="15%"><img src="images/icon/ant.png" width="60%" style="display: block; margin-left: auto; margin-right: auto;"></td>
+            </tr>
+            <tr style="height: 15px;"><td></td></tr>
+            <tr>
+              <td width="85%">
+                <li><strong>Xiaomi</strong> (Feb. 2025 - Jul. 2025)<br>
+                <strong>Research Intern</strong>, Post-training Group @ LLM-Core.<br>
+                Systematic LLM evaluation.</li>
+              </td>
+              <td width="15%"><img src="images/icon/xiaomi.png" width="60%" style="display: block; margin-left: auto; margin-right: auto;"></td>
+            </tr>
+            <tr style="height: 15px;"><td></td></tr>
+            <tr>
+              <td width="85%">
+                <li><strong>Microsoft Research Asia</strong> (Mar. 2024 - May 2024)<br>
+                <strong>Research Intern</strong>, Social Computing Group.<br>
+                Aligning LLMs for conversational recommendations.</li>
+              </td>
+              <td width="15%"><img src="images/icon/msra.jpg" width="60%" style="display: block; margin-left: auto; margin-right: auto;"></td>
+            </tr>
+            <tr style="height: 15px;"><td></td></tr>
+            <tr>
+              <td width="85%">
+                <li><strong>Baidu Inc.</strong> (Dec. 2023 - Mar. 2024)<br>
+                <strong>Machine Learning Intern</strong>, Search Strategy Department.<br>
+                LLM for Baidu Baike entry quality enhancement.</li>
+              </td>
+              <td width="15%"><img src="images/icon/baidu.png" width="60%" style="display: block; margin-left: auto; margin-right: auto;"></td>
+            </tr>
+          </table>
+        </div>
+      </div>
+
+      
+
+      <div id="awards" class="bio">
+        <h1 class="md-heading text-left"><i class="fa fa-trophy" aria-hidden="true"></i> Selected Honors & Awards</h1>
+        <ul>
+          <li>Outstanding Graduates of Shandong University (Top 1%), 2024</li>
+          <li>National Scholarship (Top 1%), 2022</li>
+          <li>First Class Academic Scholarship (Top 5%), 2021, 2022, 2023</li>
+          <li>Zhiyang Scholarship (Top 1%), 2022</li>
+          <li>Linglong Scholarship (Top 5%), 2021</li>
+          <li>Honorable Prize in Mathematical Contest in Modeling, 2022</li>
+        </ul>
+      </div>
+
+
+      <div id="teaching" class="bio">
+        <h1 class="md-heading text-left"><i class="fa fa-tasks" aria-hidden="true"></i> Teaching</h1>  
+        <strong>Teaching Assistant</strong>
+        <ul>
+          <li>Introduction to Computing, Peking University Undergraduate Course - Fall 2025</li>
+        </ul>
+      </div>
+
+
+
+    </div>
+  </div>
+
+  <footer class="site-footer">
+    <div class="wrapper">
+      <div class="footer-col-wrapper">
+        <div class="footer-col footer-col-3" style="width: 100%; float: none; clear: both; margin: 0;">
+          <p class="text" style="margin-bottom: 0;">
+            Email: <a href="mailto:yihuang@stu.pku.edu.cn">yihuang@stu.pku.edu.cn</a> &nbsp;&nbsp;&nbsp;&nbsp; Last updated: March 2026.
+            <br> The style of this website is borrowed from <a href="http://hexianghu.com">Hexiang Hu</a> and <a href="https://wanjiazhao1203.github.io/">Wanjia Zhao</a>.
+          </p>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+</body>
+</html>
